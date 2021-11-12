@@ -1,6 +1,8 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
+const { arrayBuffer } = require("stream/consumers")
+
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
@@ -43,5 +45,19 @@ let middleNums = numbers.slice(1,4)
 */
 
 // CODE HERE
+
+function bigOrSmall(arr){
+  let answers = []
+  for(i = 0; i < arr.length; i++){
+    if(arr.length > 100){
+      answers.push("Big")
+    } else if(arr.length <= 100){
+      answers.push("Small")
+      }
+    }
+    return answers
+    
+  }
+  
 
 
