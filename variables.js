@@ -37,3 +37,7 @@ if(faveNum === 13){
 
 //CODE HERE
 
+faveNum = 17
+for(i = 0; i <5; i++){
+  console.log(faveNum)
+}
