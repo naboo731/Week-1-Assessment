@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "a version control system that allows the user to track changes made to coding projects"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "a website that stores git repositorities"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,10 @@
 
 //CODE HERE
 
+let init = {a: "initialize a local repository on this computer in this directory", b: "git init"}
+
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+let clone = {a: "copy a repository from github and put it on my OS", b: "git clone REPO_URL"}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +61,8 @@
 
 //CODE HERE
 
+let status = {a: "tells the user about the repo condition", b: "git status"}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +70,8 @@
 */
 
 //CODE HERE
+
+let add = {a: "add files that need to be tracked", b: "git add ."}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +81,8 @@
 
 //CODE HERE
 
+let commit = {a: "create a snapshot of files that being tracked", b: "git commit -m 'commit info'"}
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +91,5 @@
 */
 
 //CODE HERE
+
+let push = {a: "submit added and committed files to github from local computer", b: "git push"}
