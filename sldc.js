@@ -26,6 +26,7 @@
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
 
+
 let planning = "the process of determining what product needs to be created and the steps that should be taken to create a project; also includes gathering materials and research"
 let analysisOfRequirements = "the process of defining user expectations for a new software being built or modified"
 let design = "the process of a developer creating a project to accomplish goals; invloves problem-solving and and planning a software solution"
